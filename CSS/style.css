@@ -1,0 +1,127 @@
+body{
+	background-image: url(../IMAGES/los_angeles_bg.jpg);
+	background-size: cover;
+}
+
+.navbar{
+	border-bottom: solid white 3px;
+	
+}
+
+h1{
+	color:white;
+	font-size: 40px;
+	
+}
+
+h2{
+	font-size: 30px;
+	padding: 20px 0;
+	border-bottom: 3px solid white;
+}
+
+
+
+
+.navbar-brand{
+	background-color: mediumaquamarine;
+	padding: 20px ;
+	height: auto;
+	position: relative;
+	left: 30px;
+	
+	}
+
+.navbar-brand:hover{
+	background-color: red;
+	
+}
+
+.navbar-right{
+	padding: 15px 0 15px 15px;
+}	
+
+
+
+.profile{
+	width: 300px;
+	height: 300px;
+	margin-right: 20px;
+	background-image: url(../IMAGES/Chulps_profile.jpg);
+	background-size: cover;
+	border: 3px solid white;
+    -webkit-animation-name: border-anim; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    animation-name: border-anim;
+    animation-duration: 2s;
+    animation-iteration-count: infinite ease-in-out;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes border-anim {
+    0%   {border:solid white 3px;}
+    50%  {border:solid yellow 3px;}
+    100% {border:solid white 3px;}
+}
+
+/* Standard syntax */
+@keyframes border-anim {
+    0%   {border:solid white 3px;}
+    50%  {border:solid yellow 3px;}
+    100% {border:solid white 3px;}
+}
+
+
+
+.profile:hover{
+	transition: .5s ease;
+	background-image: url(../IMAGES/CHULPS_LOGO_ANIMATION_instagram.gif);
+	border:rgba(0,0,0,0.00) 0px hidden;
+	opacity: .5;	
+}
+
+
+
+
+
+
+.transwhite{
+	background-color: rgba(255,255,255,0.60);
+}
+
+.text-white{
+	color: white;
+}
+
+
+
+.border-white{
+	border: 3px solid white;
+}
+
+.content-left{
+	display: inline;
+}
+
+.bio {line-height: 2}
+
+.content-margin{
+	margin: 60px 0 200px;
+}
+
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 0;
+}
+
+.grey{
+	color:grey;
+}
+
+.nav>li {
+    
+    padding-left: 45px;
+}
