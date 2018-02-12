@@ -100,7 +100,7 @@ h2{
 	border: 3px solid white;
 }
 
-.content-left{
+.content {
 	display: inline;
 }
 
@@ -124,4 +124,8 @@ h2{
 .nav>li {
     
     padding-left: 45px;
+}
+
+.img-responsive {
+	margin: 0 auto;
 }
